@@ -106,3 +106,20 @@ footer{
     justify-content: center;
     gap: 0.5rem;
 }
+
+@media screen and (max-width:700px) and (min-width:10px){
+    .container{
+        width: 30vh;
+    }
+    .select-container select{
+        font-size: 0.5rem;
+        width: auto;
+    }
+    .select-container{
+        width: 5rem;
+    }
+    form button{
+        font-size: 1rem;
+    }
+
+}
